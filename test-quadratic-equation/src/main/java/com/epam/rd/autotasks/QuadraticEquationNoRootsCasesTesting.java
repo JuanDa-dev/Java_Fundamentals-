@@ -3,14 +3,16 @@ package com.epam.rd.autotasks;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
 
 import static org.junit.Assert.assertEquals;
+import java.util.Arrays;
+import java.util.Collection;
 
 @RunWith(Parameterized.class)
 public class QuadraticEquationNoRootsCasesTesting {
 
     protected QuadraticEquation quadraticEquation = new QuadraticEquation();
-
     private double a;
     private double b;
     private double c;
@@ -19,6 +21,14 @@ public class QuadraticEquationNoRootsCasesTesting {
         this.a = a;
         this.b = b;
         this.c = c;
+    }
+
+    @Parameters
+    public static Collection<Object[]> data() {
+        return Arrays.asList(new Object[][]{
+            {1, 0, 1}, {3, 4, 5}, {2, -6, 10}, 
+            {1, 2, 3}, {4, 4, 2}, {1, -2, 2}
+        });
     }
 
     @Test
