@@ -8,7 +8,7 @@ import org.junit.runners.Parameterized;
 import static org.junit.Assert.assertEquals;
 import org.junit.runners.Parameterized.Parameters;
 
-import main.java.com.example.Sorting;
+import com.example.Sorting;
 
 @RunWith(Parameterized.class)
 public class SortingTest {
