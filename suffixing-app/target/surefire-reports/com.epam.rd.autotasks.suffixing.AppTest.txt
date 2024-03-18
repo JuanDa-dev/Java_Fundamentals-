@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.rd.autotasks.suffixing.AppTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.47 s <<< FAILURE! - in com.epam.rd.autotasks.suffixing.AppTest
+testBadMode1  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "SEVERE: Mode is not recognized: CPY"
+     but: was "Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: cpy
+"
+	at com.epam.rd.autotasks.suffixing.AppTest.testBadMode1(AppTest.java:78)
+
+testBadMode2  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "SEVERE: Mode is not recognized: DELETE"
+     but: was "Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: delete
+"
+	at com.epam.rd.autotasks.suffixing.AppTest.testBadMode2(AppTest.java:84)
+
+testMove  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "INFO: src/test/resources/sandbox/cases/move/origin.txt => src/test/resources/sandbox/cases/move/origin.moved.txt"
+     but: was "Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/move/origin.txt -> src/test/resources/sandbox/cases/move/origin.moved.txt
+"
+	at com.epam.rd.autotasks.suffixing.AppTest.assertFileIsMoved(AppTest.java:191)
+	at com.epam.rd.autotasks.suffixing.AppTest.testMove(AppTest.java:114)
+
+testMixcaseMode  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt => src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt"
+     but: was "Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt -> src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt
+"
+	at com.epam.rd.autotasks.suffixing.AppTest.assertFileIsMoved(AppTest.java:191)
+	at com.epam.rd.autotasks.suffixing.AppTest.testMixcaseMode(AppTest.java:106)
+

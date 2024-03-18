@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.epam.rd.autotasks.suffixing.AppTest" time="0.47" tests="13" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/workspaces/Java_Fundamentals-/suffixing-app/target/test-classes:/workspaces/Java_Fundamentals-/suffixing-app/target/classes:/workspaces/Java_Fundamentals-/suffixing-app/src/main/resources/suffixing.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest-library/2.1/hamcrest-library-2.1.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/codespace/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/opt/java/11.0.14/lib"/>
+    <property name="sun.java.command" value="/workspaces/Java_Fundamentals-/suffixing-app/target/surefire/surefirebooter1645489138582339580.jar /workspaces/Java_Fundamentals-/suffixing-app/target/surefire 2024-03-18T14-02-13_226-jvmRun1 surefire6406675468743212926tmp surefire_016797180577562600086tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/workspaces/Java_Fundamentals-/suffixing-app/target/test-classes:/workspaces/Java_Fundamentals-/suffixing-app/target/classes:/workspaces/Java_Fundamentals-/suffixing-app/src/main/resources/suffixing.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest-library/2.1/hamcrest-library-2.1.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/codespace/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/codespace"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-02-08"/>
+    <property name="java.home" value="/opt/java/11.0.14"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/workspaces/Java_Fundamentals-/suffixing-app"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/workspaces/Java_Fundamentals-/suffixing-app/target/surefire/surefirebooter1645489138582339580.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14.1+1-LTS"/>
+    <property name="user.name" value="codespace"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.2.0-1019-azure"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-31205"/>
+    <property name="localRepository" value="/home/codespace/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.14.1"/>
+    <property name="user.dir" value="/workspaces/Java_Fundamentals-/suffixing-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="11.0.14.1+1-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testThreeFilesMiddleAbsent" classname="com.epam.rd.autotasks.suffixing.AppTest" time="0.144"/>
+  <testcase name="testThreeFiles" classname="com.epam.rd.autotasks.suffixing.AppTest" time="0.039"/>
+  <testcase name="testEmptyFiles" classname="com.epam.rd.autotasks.suffixing.AppTest" time="0.006"/>
+  <testcase name="testTwoFiles" classname="com.epam.rd.autotasks.suffixing.AppTest" time="0.033"/>
+  <testcase name="testBadMode1" classname="com.epam.rd.autotasks.suffixing.AppTest" time="0.03">
+    <failure message="&#10;Expected: a string containing &quot;SEVERE: Mode is not recognized: CPY&quot;&#10;     but: was &quot;Mar 18, 2024 2:02:14 PM Main isValidMode&#10;SEVERE: Mode is not recognized: cpy&#10;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: a string containing "SEVERE: Mode is not recognized: CPY"
+     but: was "Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: cpy
+"
+	at com.epam.rd.autotasks.suffixing.AppTest.testBadMode1(AppTest.java:78)
+</failure>
+    <system-err><![CDATA[Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: cpy
+Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: cpy
+Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: cpy
+Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: cpy
+Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: cpy
+Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: cpy
+]]></system-err>
+  </testcase>
+  <testcase name="testBadMode2" classname="com.epam.rd.autotasks.suffixing.AppTest" time="0.005">
+    <failure message="&#10;Expected: a string containing &quot;SEVERE: Mode is not recognized: DELETE&quot;&#10;     but: was &quot;Mar 18, 2024 2:02:14 PM Main isValidMode&#10;SEVERE: Mode is not recognized: delete&#10;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: a string containing "SEVERE: Mode is not recognized: DELETE"
+     but: was "Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: delete
+"
+	at com.epam.rd.autotasks.suffixing.AppTest.testBadMode2(AppTest.java:84)
+</failure>
+    <system-err><![CDATA[Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: delete
+Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: delete
+Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: delete
+Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: delete
+Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: delete
+Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: delete
+Mar 18, 2024 2:02:14 PM Main isValidMode
+SEVERE: Mode is not recognized: delete
+]]></system-err>
+  </testcase>
+  <testcase name="testCopy" classname="com.epam.rd.autotasks.suffixing.AppTest" time="0.007"/>
+  <testcase name="testMove" classname="com.epam.rd.autotasks.suffixing.AppTest" time="0.012">
+    <failure message="&#10;Expected: a string containing &quot;INFO: src/test/resources/sandbox/cases/move/origin.txt =&gt; src/test/resources/sandbox/cases/move/origin.moved.txt&quot;&#10;     but: was &quot;Mar 18, 2024 2:02:14 PM Main processFiles&#10;INFO: src/test/resources/sandbox/cases/move/origin.txt -&gt; src/test/resources/sandbox/cases/move/origin.moved.txt&#10;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: a string containing "INFO: src/test/resources/sandbox/cases/move/origin.txt => src/test/resources/sandbox/cases/move/origin.moved.txt"
+     but: was "Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/move/origin.txt -> src/test/resources/sandbox/cases/move/origin.moved.txt
+"
+	at com.epam.rd.autotasks.suffixing.AppTest.assertFileIsMoved(AppTest.java:191)
+	at com.epam.rd.autotasks.suffixing.AppTest.testMove(AppTest.java:114)
+</failure>
+    <system-err><![CDATA[Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/move/origin.txt -> src/test/resources/sandbox/cases/move/origin.moved.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/move/origin.txt -> src/test/resources/sandbox/cases/move/origin.moved.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/move/origin.txt -> src/test/resources/sandbox/cases/move/origin.moved.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/move/origin.txt -> src/test/resources/sandbox/cases/move/origin.moved.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/move/origin.txt -> src/test/resources/sandbox/cases/move/origin.moved.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/move/origin.txt -> src/test/resources/sandbox/cases/move/origin.moved.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/move/origin.txt -> src/test/resources/sandbox/cases/move/origin.moved.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/move/origin.txt -> src/test/resources/sandbox/cases/move/origin.moved.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/move/origin.txt -> src/test/resources/sandbox/cases/move/origin.moved.txt
+]]></system-err>
+  </testcase>
+  <testcase name="testMixcaseMode" classname="com.epam.rd.autotasks.suffixing.AppTest" time="0.011">
+    <failure message="&#10;Expected: a string containing &quot;INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt =&gt; src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt&quot;&#10;     but: was &quot;Mar 18, 2024 2:02:14 PM Main processFiles&#10;INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt -&gt; src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt&#10;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: a string containing "INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt => src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt"
+     but: was "Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt -> src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt
+"
+	at com.epam.rd.autotasks.suffixing.AppTest.assertFileIsMoved(AppTest.java:191)
+	at com.epam.rd.autotasks.suffixing.AppTest.testMixcaseMode(AppTest.java:106)
+</failure>
+    <system-err><![CDATA[Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt -> src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt -> src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt -> src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt -> src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt -> src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt -> src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt -> src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt -> src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt -> src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt
+Mar 18, 2024 2:02:14 PM Main processFiles
+INFO: src/test/resources/sandbox/cases/mixcase-mode/to-move.txt -> src/test/resources/sandbox/cases/mixcase-mode/to-move.mv.txt
+]]></system-err>
+  </testcase>
+  <testcase name="testLowercaseMode" classname="com.epam.rd.autotasks.suffixing.AppTest" time="0.019"/>
+  <testcase name="testNoSuffixMove" classname="com.epam.rd.autotasks.suffixing.AppTest" time="0.013"/>
+  <testcase name="testNoFiles" classname="com.epam.rd.autotasks.suffixing.AppTest" time="0.011"/>
+  <testcase name="testAbsentFile" classname="com.epam.rd.autotasks.suffixing.AppTest" time="0.01"/>
+</testsuite>

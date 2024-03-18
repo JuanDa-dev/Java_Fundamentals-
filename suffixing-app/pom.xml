@@ -22,17 +22,7 @@
             <artifactId>suffixing</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/suffixing.jar</systemPath>
-        </dependency>
-            <groupId>suffixing</groupId>
-            <artifactId>suffixing</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <dependency>
-                <groupId>suffixing</groupId>
-                <artifactId>suffixing</artifactId>
-                <version>1.0</version>
-            </dependency>
+            <systemPath>${project.basedir}/src/main/resources/suffixing.jar</systemPath>
         </dependency>
 
 
